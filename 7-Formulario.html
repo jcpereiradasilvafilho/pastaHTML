@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fomulário</title>
+        <meta charset="utf-8">
+        <style type="text/CSS">
+            h5{font-size: 25px; text-align: center;}
+            p{font-family: arial;}
+        </style>
+    </head>
+    <body>
+        <h5>Preencimento de Formulário</h5>
+        <form action="mailto:jc20e5@gmail.com" method="get">
+            <p>Nome: <input type=text name="nome" size="25" maxlenght="50"></p>
+            <p>País: <input type="text" name="pais" size="2" value="BR"></p>
+            <p>Estado: <input type="text" name="uf" size="20"></p>
+            <p>Escolha sua cidade:<br></p>
+            <SELECT NAME="cidades" SIZE="4">
+                <OPTION>Altos 
+                <OPTION>Campo Maior
+                <OPTION>Parnaíba 
+                <OPTION>Teresina
+            </SELECT>
+            <p>Escolha a cidade que você deseja conhecer:<br></p>
+            <SELECT NAME="cidades">
+                <OPTION>Londres 
+                <OPTION>Paris
+                <OPTION>Roma 
+                <OPTION>Madri
+            </SELECT>
+            <p>Senha: <input type="password" name="senha" size="8"></p>
+            <p>Você prefere utilizar o cartão para:<br>
+                <input type="radio" name="d_c" checked>Débito<br>
+                <input type=radio name="d_c">Crédito
+            </p>
+            <p>Selecionais quais formas de pagamento você possui agora:<br>
+                <input type="checkbox" name="f_pg" size="3">Dinheiro<br>
+                <input type="checkbox" name="f_pg" size="3">PIX<br>
+                <input type="checkbox" name="f_pg" size="3">Crédito<br>
+                <input type="checkbox" name="f_pg" size="3">Débito<br>
+                <input type="checkbox" name="f_pg" size="3">Boleto<br>
+                <input type="checkbox" name="f_pg" size="3">QR-Code<br>
+            </p>
+            <p>Fale sobre você:<BR>
+                <textarea name="f_vc" rows="10" cols="60">
+                </textarea>
+            </p>
+            <input type=submit value="Enviar"> 
+            <input type=reset value="Limpar"> 
+            <input type=hidden name="cpf" value="verdadeiro">
+        </form>
+    </body>
+</html>
