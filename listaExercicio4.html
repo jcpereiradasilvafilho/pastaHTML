@@ -1,0 +1,111 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+    <title>Lista – Exercício 4</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        .titulo{
+            font-size: 4.5em;
+            line-height: 1.1;
+            margin-bottom: 55px;
+            display:block;
+        }
+        .subtitulo{
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            max-width: 1000px;
+            margin-bottom: 50px;
+            margin-top:25px;
+        }
+        .principal{
+            font-size: 1.1rem;
+            text-align: justify;
+            margin: 100px 145px 100px 410px;
+            line-height:1.8rem;
+            max-width:750px;
+        }
+        .principal p{
+            margin:25px 0;  
+        }
+        .principal a{
+            color:#EB191E;
+        }
+        .principal a:hover{
+            color:#000
+        }
+        body{
+            font-family:Roboto,Sans-serif;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        footer{
+            text-align: center;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">
+            HTML 5 – Semântica e o que é importante na web
+        </h1>
+        <p class="subtitulo">
+            Bem como o CSS3 o HTML 5 vem para mudar totalmente a forma que a web é construída. 
+        </p>
+    </header>
+    <main class="principal">
+        <p>O HTML é a primeira camada do desenvolvimento client-side. Como você sabe, existem 3: a primeira que é a informação, que é o HTML que vai exibi-la na página. A segunda é o CSS, que vai formatar esse HTML de forma que fique legível, usável, bonito. E a terceira que vai definir o comportamento desses elementos, que é o Javascript e Ajax.</p>
+        <p>Deles o HTML é mais importante. É o HTML que cuida da exibição da formatação. É ele que serve os buscadores e leitores de tela. É ele que serve a informação para aplicações e te dão toda a informação que você busca na web todos os dias.</p>
+        <p>Hoje em dia, a maioria dessa informação tem significado. Leitores de tela e o Google conseguem distinguir o que é um título, parágrafo, ênfase, listas, etc… Mas como eles sabem o que é um telefone? Ah, sim, fazendo microformatos. Mas microformatos é uma tecnologia que veio para tapar um buraco de semântica do HTML. E esse é um assunto interessante.</p>
+        <p>Na nova versão do HTML, a 5, o pessoal do W3C está estudando novas formas de inserir significado no HTML. Hoje, só o básico é feito. Você define o que é título, parágrafo, links, endereços, e só. Com algum microformato, você consegue definir um contato, localização e outras informações.</p>
+        <p>Abaixo, segue uma lista de alguns elementos que podemos utilizar no nosso dia-a-dia para trazer mais significado para a informação dos seus sites:</p>
+        <dl>
+            <dt><a href="https://www.w3.org/TR/html4/struct/links.html#edef-A">a</a></dt>
+            <dd>Define a ancora de um elemento.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-ABBR">abbr</a></dt>
+            <dd>Define uma abreviação.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-ACRONYM">acronym</a></dt>
+            <dd>Indica um acrônimo.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/global.html#edef-ADDRESS">address</a></dt>
+            <dd>A tag address é utilizada para conter informações de endereço e contatos.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-BLOCKQUOTE">blockquote</a></dt>
+            <dd>Blockquote define longos blocos de citação.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-CITE">cite</a></dt>
+            <dd>Define uma citação ou referência a outra fonte</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-CODE">code</a></dt>
+            <dd>Define que aquele texto é um código.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-DFN">dfn</a></dt>
+            <dd>Define que certo texto é a definição de um termo.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/global.html#edef-SPAN">div, span</a></dt>
+            <dd>Div e Span definem a estrutura dos elementos. Div é um elemento de bloco e Span um elemento de linha.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/lists.html#edef-DL">dl, dd, dt</a></dt>
+            <dd>Listas de definição são feitas para criar um grupo de termos e definições. Muito usada para fazer glossários, dicionários ou entrevistas textuais.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-ins">del, ins</a></dt>
+            <dd>INS é utilizado para mostrar que certo texto foi inserido e DEL define o texto que foi deletado da redação. Isso é bastante utilizado para corrigir artigos, textos e etc.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-EM">em</a></dt>
+            <dd>Como o strong, indica uma ênfase no texto.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/global.html#edef-H1">h1 .. h6</a></dt>
+            <dd>Grupo de títulos definidos por importância, onde o H1 é o mais importante e o H6 o menos importante.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/lists.html#edef-LI">ul, ol, li</a></dt>
+            <dd>Listas ordenadas (OL) e listas não ordenadas (UL) são utilizadas para definir e criar listas de itens.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-P">p</a></dt>
+            <dd>Define um parágrafo.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-Q">q</a></dt>
+            <dd>Define uma citação ou reposta que não necessita de quebra de linha ou marcação de um parágrafo.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-STRONG">strong</a></dt>
+            <dd>Define uma ênfase, como o EM.</dd>
+            <dt><a href="https://www.w3.org/TR/html4/struct/text.html#edef-VAR">var</a></dt>
+            <dd>Indica uma instância de uma variavel ou argumento de programa.</dd>
+        </dl>
+        <p>Além dessas tags, podemos também trabalhar com a semântica com atributos. Alguns deles: Alt, Title, classe, cite, id, lang, longdesc, rev, rel.</p>
+        <p>Tudo isso traz mais significado ao HTML. Mas ainda não é o bastante.</p>
+        <p>Como o <a href="https://www.alistapart.com/authors/a/johnallsopp" title="John Allsopp">John Allsopp</a> disse em seu <a href="https://www.alistapart.com/articles/semanticsinhtml5" title="Sematics in HTML 5">artigo no A List a Part</a>. Nós precisamos de tipos de mecanismos no HTML, que solucionem a necessidade dos desenvolvedores de enriquecer as informações exibidas no HTML dando significado inteligentes para os elementos. Essa é a verdadeira meta do HTML 5.</p>
+        <p>Infelizmente a adoção do HTML 5 não é tão simples assim. Temos que lembrar da regra Don´t Break the Web. Esse suporte deve ser leve, caso contrários, browsers como o Internet Explorer 6 ou 7 podem sofrer com a falta de compatibilidade com as novas características.</p>
+    </main>
+    <footer>
+        <p>Referência: <a href="https://tableless.com.br/html-5-semantica-e-o-que-e-importante-na-web/">html-5-semantica-e-o-que-e-importante-na-web.html</p>
+    </footer>
+</body>
+</html>

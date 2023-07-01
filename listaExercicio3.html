@@ -1,0 +1,137 @@
+<!Doctype html>
+<html>
+<head>
+    <title>Lista – Exercício 3</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        * {
+            margin:0;
+            padding:0;
+        }
+        body {
+            font-family: 'Lato', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            font-size: 100%;
+            background-color: #e1e1e1;
+        }
+        .limit {max-width: 900px; margin: 0 auto;}
+        header  {
+            padding: 40px 0 100px;
+            background: rgb(41,41,41);
+            overflow: hidden;
+            color: #FFF;
+            position: relative;
+        }
+        
+        header h2 {
+        float: right;
+        font-weight: 300;
+        padding: 3px 0 0;
+        }
+        main{
+            display: block;
+        }
+        .content {
+            box-shadow: 0 0 7px 0px rgba(0,0,0,0.2);
+            background: #FFF;
+            padding: 0 0 30px;
+            position: relative;
+            margin: -70px 180px 20px 180px;
+        }
+        main.content {overflow: hidden;}
+        main h1 {
+        font-size: 2em;
+        font-weight: 500;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        }
+        main h1 + h2 {
+        font-weight: 300;
+        padding: 0 20px 30px;
+        margin-bottom: 30px;
+        font-size: 1.4em;
+        border-bottom: 1px solid rgba(0,0,0,0.15)
+        }
+        main h2 {
+        font-weight: 500;
+        padding: 20px 0 10px;
+        }
+        main h3 {
+        font-weight: 500;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        }
+        main img {
+            max-width: 100%;
+            display: block;
+            margin: auto;
+        }
+        main p,
+        main h1,
+        main h2,
+        main h3,
+        main li {
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+        main p {
+            padding-bottom: 20px;
+            text-align: justify;
+        }
+        main ul {
+        margin-bottom: 20px;
+        margin-left: 40px;
+        }
+        main ul li {padding-left: 0  }
+        footer p{
+            text-align: center;
+            margin: 10px;
+        }
+    </style>
+</head>
+    <body>
+        <header>
+            <div class="limit">
+                <h2>Um guia para iniciantes na área de web.</h2>                
+            </div>
+        </header>
+        <main class="content">
+            <h1>O que é client-side e server-side?</h1>
+            <h2>Diferenças entre linguagem client-side e linguagem server-side</h2>
+            <p>
+                Existem dois tipos de linguagens para desenvolvermos para internet: as linguagens <strong>client-side</strong> e as linguagens <strong>server-side</strong>. Você pode ver estes nomes meio diferentes em outros lugares como por exemplo, front-end, se referindo às linguagens client-side e back-end se referindo às linguagens server-side. Não se preocupe, são a mesma coisa. Mas nesse texto, para que você possa entender melhor, vamos usar client-side e server-side.
+            </p>
+            <p>
+                As linguagens server-side são linguagens que o SERVIDOR entende. Isso quer dizer que vai escrever um código onde o servidor vai processá-lo e então vai mandar para o seu navegador a resposta.
+            </p>
+            <p>
+                Por exemplo: se criarmos um script em linguagem back-end (PHP, Asp, Java, Ruby, etc) que apenas calcula a soma de 2 + 2, será o SERVIDOR (ou back, o server) que calculará este resultado. Se fizermos esse cálculo em alguma linguagem front-end, como o JavaScript, quem calculará essa conta é o BROWSER do usuário. Por isso o termo client ou front.
+            </p>
+            <img src="https://tableless.github.io/iniciantes/assets/img/client-side-back-end.png" alt="Imagem demonstrando a diferença entre o client-side e o server-side">
+            <p>
+                Assim, os profissionais que trabalham na interface do usuário, são chamados de Desenvolvedores front-end, e aqueles que trabalham no core da aplicação, fazendo uma programação que somente o servidor irá entender são chamados de Desenvolvedores back-end.
+            </p>
+            <h3>Exemplos de linguagens</h3>
+            <p>
+                Essas linguagens são linguagens client-side. É o que vamos aprender durante todo esse conteúdo:
+            </p>
+            <ul>
+                <li>HTML (xHTML, HTML4, HTML5...)</li>
+                <li>CSS (CSS2.1, CSS3...)</li>
+                <li>JavaScript</li>
+            </ul>
+            <p>
+                Essas são linguagens server-side, são as linguagens com que os programadores back-end trabalham:
+            </p>
+            <ul>
+                <li>PHP</li>
+                <li>ASP</li>
+                <li>Java</li>
+                <li>Ruby</li>
+                <li>Python</li>
+            </ul>
+        </main>
+        <footer>
+            <p>Referência: <a href="https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back.html">o-que-front-back.html</p>
+        </footer>
+    </body>
+</html>
